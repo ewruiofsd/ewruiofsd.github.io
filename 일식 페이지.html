@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    html {
+      box-sizing: border-box;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+
+    .column {
+      float: left;
+      width: 33.3%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .container {
+      padding: 0 16px;
+    }
+
+    .container::after,
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .title {
+      color: grey;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>일식 제휴 업체</h2>
+  <br>
+
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="쌍문.jpeg" alt="쌍문" style="width:100%">
+        <div class="container">
+          <h2>쌍문_일심당</h2>
+          <p class="title">일본식 라면</p>
+          <p>0507-1399-4155</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="장안.jpeg" alt="장안" style="width:100%">
+        <div class="container">
+          <h2>장안_오늘동</h2>
+          <p class="title">일식당</p>
+          <p>0507-1397-4909</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="명동.jpeg" alt="명동" style="width:100%">
+        <div class="container">
+          <h2>명동_명동돈가스</h2>
+          <p class="title">돈가스</p>
+          <p>02-775-5300</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="개포.jpeg" alt="개포" style="width:100%">
+        <div class="container">
+          <h2>개포_리애</h2>
+          <p class="title">돈가스</p>
+          <p>02-574-8588</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="노량진.jpeg" alt="노량진" style="width:100%">
+        <div class="container">
+          <h2>노량진_오코노미스토리</h2>
+          <p class="title">일식당</p>
+          <p>010-8346-3433</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="합정.jpeg" alt="합정" style="width:100%">
+          <div class="container">
+            <h2>합정_오레노라멘</h2>
+            <p class="title">일본식 라면</p>
+            <p>0507-1375-3539</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="가양.jpeg" alt="가양" style="width:100%">
+            <div class="container">
+              <h2>가양_카메야라멘</h2>
+              <p class="title">일본식 라면</p>
+              <p>0507-1403-3412</p>
+            </div>
+          </div>
+        </div>
+</body>
+
+</html>

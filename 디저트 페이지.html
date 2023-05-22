@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+
+</style>
+</head>
+<body>
+
+<h2>디저트 제휴 업체</h2>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="우이.jpeg" alt="우이" style="width:100%">
+      <div class="container">
+        <h2>우이_히피스베이글</h2>
+        <p class="title">베이커리</p>
+        <p>02-906-6778</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="평창.jpeg" alt="평창" style="width:100%">
+      <div class="container">
+        <h2>평창_키미아트</h2>
+        <p class="title">카페</p>
+        <p>02-394-64418</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="성북.jpeg" alt="성북" style="width:100%">
+      <div class="container">
+        <h2>성북_나폴레옹과자점</h2>
+        <p class="title">베이커리</p>
+        <p>02-742-7421</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="중곡.jpeg" alt="중곡" style="width:100%">
+      <div class="container">
+        <h2>중곡_RADIANT</h2>
+        <p class="title">카페,디저트</p>
+        <p>02-2201-0204</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="신사.jpeg" alt="신사" style="width:100%">
+      <div class="container">
+        <h2>신사_ArenShop</h2>
+        <p class="title">카페,디저트</p>
+        <p>010-2483-8509</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="신월.jpeg" alt="신월" style="width:100%">
+        <div class="container">
+          <h2>신월_신월당</h2>
+          <p class="title">베이커리</p>
+          <p>0507-1335-0370</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="상암.jpeg" alt="상암" style="width:100%">
+          <div class="container">
+            <h2>상암_하밀 베이글</h2>
+            <p class="title">베이커리</p>
+            <p>0507-1436-5779</p>
+          </div>
+        </div>
+      </div>
+  
+
+</div>
+
+</body>
+</html>

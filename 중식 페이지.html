@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+
+</style>
+</head>
+<body>
+
+<h2>중식 제휴 업체</h2>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="신촌.jpeg" alt="신촌" style="width:100%">
+      <div class="container">
+        <h2>신촌_천궁전마라탕</h2>
+        <p class="title">중식당</p>
+        <p>02-322-9880</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="대림.jpeg" alt="대림" style="width:100%">
+      <div class="container">
+        <h2>대림_행복샤브훠궈</h2>
+        <p class="title">중식당</p>
+        <p>0507-1324-6898</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="시흥.jpeg" alt="시흥" style="width:100%">
+      <div class="container">
+        <h2>시흥_동흥관</h2>
+        <p class="title">중식당</p>
+        <p>02-803-3759</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="진관.jpeg" alt="진관" style="width:100%">
+      <div class="container">
+        <h2>진관_탕면</h2>
+        <p class="title">중식당</p>
+        <p>0507-1368-0342</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="송파.jpeg" alt="송파" style="width:100%">
+      <div class="container">
+        <h2>송파_진지아</h2>
+        <p class="title">중식당</p>
+        <p>0507-1317-5356</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+
+</style>
+</head>
+<body>
+
+<h2>분식 제휴 업체</h2>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="미아.png" alt="미아" style="width:100%">
+      <div class="container">
+        <h2>미아_제일분식</h2>
+        <p class="title">떡볶이</p>
+        <p>0507-1364-7334</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="신당.jpeg" alt="신당" style="width:100%">
+      <div class="container">
+        <h2>신당_우정</h2>
+        <p class="title">떡볶이</p>
+        <p>02-2233-0669</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="구의.jpeg" alt="구의" style="width:100%">
+      <div class="container">
+        <h2>구의_신토불이떡볶이</h2>
+        <p class="title">떡볶이</p>
+        <p>02-457-2475</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="홍은.jpeg" alt="홍은" style="width:100%">
+      <div class="container">
+        <h2>홍은_왕자떡볶이</h2>
+        <p class="title">종합분식</p>
+        <p>0507-1334-0143</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="사당.jpeg" alt="사당" style="width:100%">
+      <div class="container">
+        <h2>사당_애플하우스</h2>
+        <p class="title">떡볶이</p>
+        <p>02-595-1629</p>
+      </div>
+    </div>
+  </div>
+
+  
+</div>
+
+</body>
+</html>
